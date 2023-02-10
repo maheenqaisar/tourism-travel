@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+.backpicture{
+    background-image: url(https://freedesignfile.com/upload/2017/02/White-abstract-background-with-wave-vector-illustration-01.jpg) ;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+.backpicture h5{
+    position: relative;
+    top:23%;
+    bottom:auto;
+}
+.backpicture h1{
+    position: relative;
+    top:22%;
+    bottom:auto;
+}
+.backpicture p {
+    position: relative;
+    top:21%;
+    bottom:100px;
+}
+.carousel-control-next, .carousel-control-prev{
+    height:40px !important;
+    width:40px !important;
+    padding:12px !important;
+    margin: 0 13px;
+    top:50% !important;
+    bottom: 100%;
+    background-color: #6c757d;
+}
+.carousel-control-next{
+    margin: 0 15px;
+}
+.myline{border: 1px solid #6c757d;}
+.mybtn{background-color: #6c757d !important; color: white !important;}
+.mybtn i{
+    color: white !important;
+    border-right: 1px solid white;
+    padding-right: 5px !important;
+}
+/* Slider End */
+
+.mylin2{border: 1px solid #cfcfcf;}
+.msgbox{
+    border: 2px solid #f8f9fa;
+    background-color: #f8f9fa;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    padding: 15px 15px 7px 15px;
+}
+.msgbox:after{
+    position: absolute;
+    width: 15px;
+    height: 35px;
+    border-top: 2px solid #f8f9fa;
+    border-bottom: 2px solid #f8f9fa;
+    border-left: 2px solid #f8f9fa;
+    border-right: 2px solid #f8f9fa;
+    top: 100%;
+    left: 10%;
+    margin-left: -25px;
+    content: "";
+    transform: rotate(45deg);
+    margin-top: -23px;
+    background-color: #f8f9fa;
+}
+/* Left side column End */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Source+Sans+Pro:wght@200&display=swap');
+.box2{
+    border: 2px solid #6c757d;
+    background-color: #6c757d;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    margin-bottom: 20px !important;
+}
+.box2:after{
+    position: absolute;
+    width: 15px;
+    height: 35px;
+    border-top: 2px solid #6c757d;
+    border-bottom: 2px solid #6c757d;
+    border-left: 2px solid #6c757d;
+    border-right: 2px solid #6c757d;
+    top: 100%;
+    left: 55%;
+    margin-left: -25px;
+    content: "";
+    transform: rotate(45deg);
+    margin-top: -23px;
+    background-color: #6c757d;
+}
+.form-control{
+    border-radius: 0px !important;
+    margin: 13px auto;
+    width: 95% !important;
+}
+input:focus, textarea:focus{outline: none !important; box-shadow: none !important;}
+textarea{
+    height: 120px !important;
+}
+.mybtn2{
+    background-color: #6c757d !important; 
+    color: white !important;
+    margin-bottom: 17px !important;
+    margin-top: 5px !important;
+}
+.mybtn2 i{
+    color: white !important;
+    border-right: 1px solid white;
+    padding-right: 5px !important;
+}
+/* Section 1 After Slider End */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+.box09{
+    height: 100px !important;
+    border-top: 3px solid #6c757d;
+    width: 80% !important;
+    border-bottom: 1px solid #6c757d;
+    border-left: 0px solid #6c757d;
+    border-right: 2px solid #6c757d;
+    box-sizing: border-box !important;
+    margin: 50px 0px !important;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    display: inline-block !important;
+
+}
+
+.mypicsec{
+    float: right;
+    width: 180px;
+    height: 146px;
+    background-image: url(myboxpicture.png);
+    background-size: 180px 180px;
+    background-repeat: no-repeat;
+    display: inline-block !important;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    color: white;
+    text-align: center;
+}
+
+.mylinks a{
+    text-decoration: none !important;
+    text-transform: none !important;
+    color: #6c757d !important;
+    padding: 10px !important;
+}
+/* Icon links End */
